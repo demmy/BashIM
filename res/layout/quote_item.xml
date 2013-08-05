@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="#1"
+            android:id="@+id/id"
+            android:layout_weight="1"
+            android:gravity="center_vertical" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:text=" - 2426 +"
+            android:id="@+id/rating"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:gravity="center_vertical" />
+
+        <CheckBox
+            android:id="@+id/fav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/starStyle"
+            android:checked="false" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='Друг собирается купить себе паука: ааа: его можно даже мышами кормить вместо кошки дома держать.  ввв: ну да. гостей в доме у тебя будет "навалом" )) заходят, а к ним огромный мохнатый паук бежит о ноги потереться )))'
+        android:id="@+id/text"
+        android:background="#f3f3f3"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp" />
+
+</LinearLayout>
